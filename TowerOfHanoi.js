@@ -15,12 +15,11 @@ function moveStacks(num) {
 
     function moveToStack(num, pos, goal, alt) {
         if (num > 0) {
-            moveToStack(num - 1, pos, alt, goal);
+            moveToStack(num - 1, pos, alt, goal);//Move the next lower value to the position that is not the current numbers destination
             moves.unshift([`(${num})${pos.name}->${goal.name}`]);
-            console.log(`${num} From:${pos} to:${goal} alt:${alt}`);
             goal.unshift(num);
             pos.shift();
-            moveToStack(num - 1, alt, goal, pos);
+            moveToStack(num - 1, alt, goal, pos);///Move the next lower value to final position
         }
     }
     moveToStack(num, startingStack, endingStack, auxStack);
