@@ -1,7 +1,7 @@
 //---------Tower of Hanoi---------
 //Move a stack of items that start in ascending order and all in one position to a second position.
 //An auxillary third position is also available, however items can be only be moved one at a time 
-//to another position and an item cannot be placed on top of smaller items
+//to another position and an item cannot be placed on top of smaller items.
 
 //This function takes a size of the initial stack and outputs the number of moves it requires to rearrange
 function moveStacks(num) {
