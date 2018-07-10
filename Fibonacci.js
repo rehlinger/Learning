@@ -27,7 +27,7 @@ let fib2 = function (){
     return fib;
 }()
 
-console.log(fib2(500))
+console.log(fib2(500));
 
 //Solutions 3 implements an fixed sized array (length 3) that is continuously updated as the stack is computed from 0->n.
 let fib3 = function(){
@@ -43,4 +43,4 @@ let fib3 = function(){
     return fib;
 }()
 
-console.log(fib3(500))
+console.log(fib3(500));
