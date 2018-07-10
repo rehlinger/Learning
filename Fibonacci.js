@@ -1,5 +1,5 @@
 //Different approaches to solving for the n-th term in a Fibonacci sequence. Solutions are overflow safe for all real numbers.
-//Solutions to avoid unnecessary rescursion to allow for fast solutions to the problem.
+//Solutions to avoid unnecessary rescursion to allow for fast computation.
 
 //Solution 1 implements a call stack that provides an object for each given number that remembers past history.
 function fib1(n) {
