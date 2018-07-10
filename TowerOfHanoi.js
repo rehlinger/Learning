@@ -27,5 +27,5 @@ function moveStacks(num) {
     return `Number of Moves = ${moves.length}`
 }
 
-console.log(moveStacks(3));
+console.log(moveStacks(4));
 
