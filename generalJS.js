@@ -1,3 +1,5 @@
+//Collection of random JS tips and tricks
+
 //Array Creation Methods
 let arr1 = [0,0,0,0,0]
 let arr2 = Array.from({length: 5}, x => 0)
