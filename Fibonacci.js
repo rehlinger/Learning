@@ -29,7 +29,7 @@ let fib2 = function (){
 
 console.log(fib2(500));
 
-//Solutions 3 implements an fixed sized array (length 3) that is continuously updated as the stack is computed from 0->n.
+//Solution 3 implements an fixed sized array (length 3) that is continuously updated as the stack is computed from 0->n.
 let fib3 = function(){
     let arr = Array(3).fill(0);
     let fib = function (n) {
